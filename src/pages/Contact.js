@@ -43,7 +43,7 @@ const Contact = () => {
           </div>
           <div className="phone">
             <div className="content">
-              <h4>téléphone</h4>
+              <h4>Téléphone</h4>
               <CopyToClipboard text="0628218883" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
@@ -57,7 +57,7 @@ const Contact = () => {
           </div>
           <div className="email">
             <div className="content">
-              <h4>email</h4>
+              <h4>Email</h4>
               <CopyToClipboard
                 text="lounis.khadir@wanadoo.fr"
                 className="hover"

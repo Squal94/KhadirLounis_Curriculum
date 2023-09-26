@@ -8,6 +8,7 @@ import Formations from "../components/cv_Components/Formations";
 import SoftSkills from "../components/cv_Components/SoftSkills";
 import OtherSkills from "../components/cv_Components/OtherSkills";
 import Loisirs from "../components/cv_Components/Loisirs";
+import Experiences from "../components/cv_Components/Experiences";
 
 const Cv = () => {
   return (
@@ -19,6 +20,7 @@ const Cv = () => {
         <h1>Khadir Lounis</h1>
         <h2>Curriculum Vitae</h2>
         <Competences />
+        <Experiences />
         <Formations />
         <SoftSkills />
         <OtherSkills />
