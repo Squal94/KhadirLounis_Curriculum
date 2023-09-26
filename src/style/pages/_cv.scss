@@ -1,0 +1,85 @@
+.cv {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+
+  &:after {
+    content: "";
+    height: 800px;
+    width: 800px;
+    background: $color-3;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -480px;
+    right: 0px;
+    z-index: -2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    @media screen and (max-width: 650px) {
+      height: 400px;
+      width: 400px;
+      bottom: -270px;
+    }
+
+    @media screen and (max-width: 430px) {
+      display: none;
+    }
+  }
+
+  .cv-content {
+    margin: 100px auto 0 auto;
+    justify-items: center;
+    width: 80%;
+    height: 95%;
+    -webkit-user-select: none;
+    user-select: none;
+
+    h1 {
+      font-size: 3.7rem;
+      margin: 30px auto;
+      position: relative;
+      font-family: $font-2;
+      color: white;
+
+      @media screen and (max-width: 650px) {
+        font-size: 2rem;
+      }
+      @media screen and (min-width: 1200px) {
+        font-size: 5rem;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        height: 225px;
+        width: 225px;
+        border-radius: 50%;
+        border: 1px $color-2 solid;
+        top: -40px;
+        left: -180px;
+        z-index: -1;
+
+        @media screen and (max-width: 850px) {
+          height: 110px;
+          width: 110px;
+          left: -40px;
+          top: -15px;
+        }
+      }
+    }
+    h2 {
+      font-size: 4.2rem;
+      font-weight: 100;
+      margin: 30px auto;
+
+      @media screen and (max-width: 650px) {
+        font-size: 2rem;
+      }
+      @media screen and (min-width: 1200px) {
+        font-size: 5rem;
+      }
+    }
+  }
+}
