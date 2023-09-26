@@ -1,7 +1,6 @@
 .cv {
   width: 100vw;
   height: 100vh;
-  position: absolute;
 
   &:after {
     content: "";
@@ -27,18 +26,12 @@
       display: none;
     }
   }
-
-  .cv-content {
-    animation: cvAnim 1s ease-in-out;
-    margin: 100px auto 0 auto;
-    justify-items: center;
+  .cv-position {
     position: relative;
-    width: 80%;
-    -webkit-user-select: none;
-    user-select: none;
-
+    height: 80%;
+    padding: 50px;
     h1 {
-      font-size: 3.7rem;
+      font-size: 4rem;
       margin: 30px auto;
       position: relative;
       font-family: $font-2;
@@ -47,7 +40,7 @@
       @media screen and (max-width: 650px) {
         font-size: 2rem;
       }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 2200px) {
         font-size: 5rem;
       }
 
@@ -71,36 +64,43 @@
       }
     }
     h2 {
-      font-size: 4.2rem;
+      font-size: 3rem;
       font-weight: 100;
-      margin: 30px auto;
+      margin: 30px auto 0 auto;
 
       @media screen and (max-width: 650px) {
         font-size: 2rem;
       }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 2200px) {
         font-size: 5rem;
       }
     }
-    @keyframes cvAnim {
-      0% {
-        opacity: 0;
-      }
-      50% {
-        transform: scale(0.8);
-        opacity: 0.7;
-      }
-      100% {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
-    &-test {
-      height: 400px;
-      position: absolute;
+
+    .cv-content {
+      animation: cvAnim 1s ease-in-out;
+      margin: 50px auto;
+      justify-items: center;
+      width: 80%;
+      height: 80%;
+      -webkit-user-select: none;
+      user-select: none;
+      position: sticky;
       overflow-y: scroll;
+      @keyframes cvAnim {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          transform: scale(0.8);
+          opacity: 0.7;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
     }
-    &-test::-webkit-scrollbar {
+    .cv-content::-webkit-scrollbar {
       display: none;
     }
   }

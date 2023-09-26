@@ -16,10 +16,10 @@ const Cv = () => {
       <Mouse />
       <Navigation />
       {/* <Logo /> */}
-      <div className="cv-content">
+      <div className="cv-position">
         <h1>Khadir Lounis</h1>
         <h2>Curriculum Vitae</h2>
-        <div className="cv-content-test">
+        <div className="cv-content">
           <Competences />
           <Experiences />
           <Formations />
