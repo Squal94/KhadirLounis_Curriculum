@@ -19,12 +19,14 @@ const Cv = () => {
       <div className="cv-content">
         <h1>Khadir Lounis</h1>
         <h2>Curriculum Vitae</h2>
-        <Competences />
-        <Experiences />
-        <Formations />
-        <SoftSkills />
-        <OtherSkills />
-        <Loisirs />
+        <div className="cv-content-test">
+          <Competences />
+          <Experiences />
+          <Formations />
+          <SoftSkills />
+          <OtherSkills />
+          <Loisirs />
+        </div>
       </div>
       <Buttons left={"/"} right={"/projet-1"} />
     </div>
