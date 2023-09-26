@@ -75,17 +75,33 @@
         font-size: 5rem;
       }
     }
+    h3 {
+      font-size: 2.5rem;
+      margin: 30px 0;
+    }
+    h4 {
+      font-size: 2rem;
+      color: rgb(240, 240, 240);
+      margin: 30px;
+    }
 
     .cv-content {
       animation: cvAnim 1s ease-in-out;
       margin: 50px auto;
-      justify-items: center;
       width: 80%;
       height: 80%;
       -webkit-user-select: none;
       user-select: none;
       position: sticky;
       overflow-y: scroll;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas:
+        "C C C"
+        "F F F"
+        "E E E"
+        "S S S"
+        "O O L";
       @keyframes cvAnim {
         0% {
           opacity: 0;
@@ -98,6 +114,53 @@
           transform: scale(1);
           opacity: 1;
         }
+      }
+      .cv__competences {
+        grid-area: C;
+        .cv__progress {
+          margin: 20px 30px;
+          h5 {
+            font-size: 1.5rem;
+          }
+          &--bar {
+            height: 1.5rem;
+            background-color: transparent;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            margin-top: 0.2rem;
+            position: relative;
+            &::after {
+              content: "";
+              height: 1.5rem;
+              width: 0;
+              background-color: rgb(231, 233, 161);
+              border-top-right-radius: 50px;
+              border-bottom-right-radius: 50px;
+              position: absolute;
+              animation: line 2s ease-out forwards;
+              @keyframes line {
+                to {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+      .cv__experiences {
+        grid-area: E;
+      }
+      .cv__formations {
+        grid-area: F;
+      }
+      .cv__softSkills {
+        grid-area: S;
+      }
+      .cv__otherSkills {
+        grid-area: O;
+      }
+      .cv__loisirs {
+        grid-area: L;
       }
     }
     .cv-content::-webkit-scrollbar {

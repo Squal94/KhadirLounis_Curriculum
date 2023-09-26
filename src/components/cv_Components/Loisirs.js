@@ -7,27 +7,31 @@ const Loisirs = () => {
       <div className="cv__list">
         <ul>
           <li>
-            <i class="fa-solid fa-leaf"></i>
+            <i className="fa-solid fa-leaf"></i>
             Nature
           </li>
           <li>
-            <i class="fa-solid fa-earth-europe"></i>
+            <i className="fa-solid fa-earth-europe"></i>
             Ecologie
           </li>
           <li>
-            <i class="fa-solid fa-utensils"></i>
+            <i className="fa-solid fa-utensils"></i>
             Cuisine
           </li>
           <li>
-            <i class="fa-solid fa-dragon"></i>
+            <i className="fa-solid fa-dragon"></i>
             Animation Manga
           </li>
           <li>
-            <i class="fa-solid fa-gamepad"></i>
+            <i className="fa-solid fa-shuttle-space"></i>
+            Espace
+          </li>
+          <li>
+            <i className="fa-solid fa-gamepad"></i>
             Jeux video
           </li>
           <li>
-            <i class="fa-solid fa-film"></i>
+            <i className="fa-solid fa-film"></i>
             Montage video
           </li>
         </ul>

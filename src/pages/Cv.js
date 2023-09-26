@@ -21,8 +21,8 @@ const Cv = () => {
         <h2>Curriculum Vitae</h2>
         <div className="cv-content">
           <Competences />
-          <Experiences />
           <Formations />
+          <Experiences />
           <SoftSkills />
           <OtherSkills />
           <Loisirs />
