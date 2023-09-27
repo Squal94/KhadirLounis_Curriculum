@@ -61,6 +61,7 @@
     .nav-projects:hover {
       visibility: visible;
       opacity: 1;
+      z-index: 10;
 
       li {
         transform: rotatey(0deg);

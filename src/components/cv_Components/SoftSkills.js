@@ -8,27 +8,27 @@ const SoftSkills = () => {
         <ul>
           <li>
             <i className="fas fa-check-square"></i>
-            Anglais intermédiaire
+            Autonomie
           </li>
           <li>
             <i className="fas fa-check-square"></i>
-            Méthodes Agiles
+            Curiosité
           </li>
           <li>
             <i className="fas fa-check-square"></i>
-            Figma
+            Organisation du travail
           </li>
           <li>
             <i className="fas fa-check-square"></i>
-            Github
+            Initiatives et être force de proposition
           </li>
           <li>
             <i className="fas fa-check-square"></i>
-            Photoshop, Gimp
+            Prise de recul
           </li>
           <li>
             <i className="fas fa-check-square"></i>
-            Montage hardware
+            Travailler en équipe
           </li>
         </ul>
       </div>
