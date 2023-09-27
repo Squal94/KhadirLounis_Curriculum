@@ -1,0 +1,48 @@
+.motivation {
+  width: 70%;
+  margin: 50px auto;
+  position: relative;
+  h1 {
+    margin: 50px;
+    color: white;
+  }
+  p {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  &:after {
+    content: "";
+    height: 800px;
+    width: 800px;
+    background: $color-3;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -480px;
+    right: 0px;
+    z-index: -2;
+    animation: homeAnim 26s infinite alternate;
+
+    @media screen and (max-width: 650px) {
+      height: 400px;
+      width: 400px;
+      bottom: -270px;
+    }
+
+    @keyframes homeAnim {
+      50% {
+        transform: scale(0.8);
+      }
+      100% {
+        transform: scale(1.1);
+      }
+    }
+    @media screen and (max-width: 430px) {
+      display: none;
+    }
+  }
+}
