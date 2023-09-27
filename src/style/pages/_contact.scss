@@ -112,6 +112,9 @@
       cursor: pointer;
       transition: 0.2s;
       border: none;
+      @media screen and (max-width: 540px) {
+        z-index: 10;
+      }
     }
   }
   .formMessage {
@@ -198,7 +201,7 @@
   .nom {
     position: relative;
 
-    @media screen and (max-width: 540px) {
+    @media screen and (max-width: 650px) {
       display: none;
     }
     .content {
@@ -210,30 +213,18 @@
   .phone {
     position: relative;
 
-    @media screen and (max-width: 540px) {
-      text-align: center;
-      font-size: 0.8rem;
-      grid-area: b;
-    }
-
     .content {
       position: absolute;
       left: 40%;
       transform: translateX(-50%);
-
-      @media screen and (max-width: 540px) {
-        position: relative;
-        margin: 0 auto;
-        left: 0;
-        transform: translateX(0);
-      }
+    }
+    @media screen and (max-width: 650px) {
+      display: none;
     }
   }
   .email {
-    @media screen and (max-width: 540px) {
-      grid-area: c;
-      font-size: 0.8rem;
-      text-align: center;
+    @media screen and (max-width: 650px) {
+      display: none;
     }
   }
   .social-network {
@@ -241,7 +232,8 @@
     width: 80%;
     margin: 0 auto;
 
-    @media screen and (max-width: 740px) {
+    @media screen and (max-width: 650px) {
+      margin: 50px;
       width: 50%;
       grid-area: d;
     }
