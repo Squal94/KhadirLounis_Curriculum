@@ -16,7 +16,7 @@ const App = () => {
     <BrowserRouter>
       <AnimatePresence>
         <Routes>
-          <Route path="KhadirLounis_Curriculum/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/cv" element={<Cv />} />
           <Route path="/motivation" element={<Motivation />} />
           <Route path="/projet-1" element={<Project1 />} />
