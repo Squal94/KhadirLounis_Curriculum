@@ -22,25 +22,25 @@ const Navigation = () => {
           Portfolio
           <ul className="nav-projects">
             <NavLink
-              to="KhadirLounis_Curriculum/projet-1"
+              to="/projet-1"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
               <li>Katsuryoku</li>
             </NavLink>
             <NavLink
-              to="KhadirLounis_Curriculum/projet-2"
+              to="/projet-2"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
               <li>World of One piece</li>
             </NavLink>
             <NavLink
-              to="KhadirLounis_Curriculum/projet-3"
+              to="/projet-3"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
               <li>projet 3</li>
             </NavLink>
             <NavLink
-              to="KhadirLounis_Curriculum/projet-4"
+              to="/projet-4"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
               <li>projet 4</li>
@@ -48,13 +48,13 @@ const Navigation = () => {
           </ul>
         </li>
         <NavLink
-          to="KhadirLounis_Curriculum/motivation"
+          to="/motivation"
           className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
         >
           <li>Motivation</li>
         </NavLink>
         <NavLink
-          to="KhadirLounis_Curriculum/contact"
+          to="/contact"
           className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
         >
           <li>Contact</li>
