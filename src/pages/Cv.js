@@ -45,7 +45,10 @@ const Cv = () => {
           <Loisirs />
         </div>
       </div>
-      <Buttons left={"/"} right={"/projet-1"} />
+      <Buttons
+        left={"KhadirLounis_Curriculum/"}
+        right={"KhadirLounis_Curriculum/projet-1"}
+      />
     </div>
   );
 };

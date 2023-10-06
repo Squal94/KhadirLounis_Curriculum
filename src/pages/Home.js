@@ -68,12 +68,12 @@ const Home = () => {
             <img className="img2" src="/assets/img/Css.png" alt="Logo Css" />
             <img
               className="img3"
-              src="/assets/img/GitHub-LogoPNG1.png"
+              src="./../../public/assets/img/GitHub-LogoPNG1.png"
               alt="Logo Github"
             />
             <img
               className="img4"
-              src="/assets/img/Javascript.png"
+              src="assets/img/Javascript.png"
               alt="Logo Javascript"
             />
             <img
@@ -88,7 +88,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <Buttons right={"/cv"} />
+        <Buttons right={"KhadirLounis_Curriculum/cv"} />
       </motion.div>
     </div>
   );
