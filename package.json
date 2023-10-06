@@ -2,7 +2,7 @@
   "name": "react-vitrine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://squal94.github.io/KhadirLounis_Curriculum",
+  "homepage": "https://squal94.github.io/KhadirLounis_Curriculum/",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.2",

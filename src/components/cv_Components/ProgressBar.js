@@ -3,7 +3,6 @@ import React from "react";
 const ProgressBar = ({ title, force }) => {
   let forceGeneral = 5;
   let forceItem = (force / forceGeneral) * 100 + "%";
-  console.log(forceItem);
   return (
     <div className="cv__progress">
       <h5>{title}</h5>

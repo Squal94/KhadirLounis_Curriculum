@@ -78,7 +78,7 @@ const Home = () => {
             />
             <img
               className="img5"
-              src="/assets/img/React.png"
+              src="./assets/img/React.png"
               alt="Logo React"
             />
             <img
