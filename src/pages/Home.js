@@ -83,7 +83,7 @@ const Home = () => {
             />
             <img
               className="img6"
-              src="/assets/img/Rredux.png"
+              src="assets/img/Rredux.png"
               alt="Logo Redux"
             />
           </div>
