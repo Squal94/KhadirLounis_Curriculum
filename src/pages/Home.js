@@ -64,11 +64,11 @@ const Home = () => {
             </motion.h2>
           </div>
           <div className="main__images">
-            <img className="img1" src="/assets/img/html5.png" alt="Logo Html" />
-            <img className="img2" src="/assets/img/Css.png" alt="Logo Css" />
+            <img className="img1" src="assets/img/html5.png" alt="Logo Html" />
+            <img className="img2" src="assets/img/Css.png" alt="Logo Css" />
             <img
               className="img3"
-              src="./../../public/assets/img/GitHub-LogoPNG1.png"
+              src="assets/img/GitHub-LogoPNG1.png"
               alt="Logo Github"
             />
             <img
@@ -76,11 +76,7 @@ const Home = () => {
               src="assets/img/Javascript.png"
               alt="Logo Javascript"
             />
-            <img
-              className="img5"
-              src="./public/assets/img/React.png"
-              alt="Logo React"
-            />
+            <img className="img5" src="assets/img/React.png" alt="Logo React" />
             <img
               className="img6"
               src="assets/img/Rredux.png"
