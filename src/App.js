@@ -16,14 +16,32 @@ const App = () => {
     <BrowserRouter>
       <AnimatePresence>
         <Routes>
-          <Route path="KhadirLounis_Curriculum/" element={<Home />} />
-          <Route path="/cv" element={<Cv />} />
-          <Route path="/motivation" element={<Motivation />} />
-          <Route path="/projet-1" element={<Project1 />} />
-          <Route path="/projet-2" element={<Project2 />} />
-          <Route path="/projet-3" element={<Project3 />} />
-          <Route path="/projet-4" element={<Project4 />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/KhadirLounis_Curriculum/" element={<Home />} />
+          <Route path="/KhadirLounis_Curriculum/cv" element={<Cv />} />
+          <Route
+            path="/KhadirLounis_Curriculum/motivation"
+            element={<Motivation />}
+          />
+          <Route
+            path="/KhadirLounis_Curriculum/projet-1"
+            element={<Project1 />}
+          />
+          <Route
+            path="/KhadirLounis_Curriculum/projet-2"
+            element={<Project2 />}
+          />
+          <Route
+            path="/KhadirLounis_Curriculum/projet-3"
+            element={<Project3 />}
+          />
+          <Route
+            path="/KhadirLounis_Curriculum/projet-4"
+            element={<Project4 />}
+          />
+          <Route
+            path="/KhadirLounis_Curriculum/contact"
+            element={<Contact />}
+          />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>

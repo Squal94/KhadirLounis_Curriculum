@@ -6,7 +6,7 @@ const NotFound = () => {
     <div className="notFound">
       <div className="notFound-content">
         <h2>Erreur 404</h2>
-        <NavLink to="/">
+        <NavLink to="/KhadirLounis_Curriculum/">
           <h3>
             Retour à l'accueil <i className="fas fa-home"></i>
           </h3>
