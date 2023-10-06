@@ -84,7 +84,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <Buttons right={"KhadirLounis_Curriculum/cv"} />
+        <Buttons right={"/cv"} />
       </motion.div>
     </div>
   );

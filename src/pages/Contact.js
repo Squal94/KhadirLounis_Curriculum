@@ -77,7 +77,7 @@ const Contact = () => {
             <p>From Scratch - 2022</p>
           </div>
         </div>
-        <Buttons left={"KhadirLounis_Curriculum/motivation"} />
+        <Buttons left={"/motivation"} />
       </motion.div>
     </main>
   );
