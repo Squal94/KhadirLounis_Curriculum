@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/KhadirLounis_Curriculum/static/css/main.a849dd2c.css",
-    "main.js": "/KhadirLounis_Curriculum/static/js/main.50384cb9.js",
+    "main.js": "/KhadirLounis_Curriculum/static/js/main.f7e93c2a.js",
     "static/media/Questrial-Regular.ttf": "/KhadirLounis_Curriculum/static/media/Questrial-Regular.96dd668fc36d87af7f89.ttf",
     "static/media/Khadir-Lounis-pole-emploi-assessfirst.pdf": "/KhadirLounis_Curriculum/static/media/Khadir-Lounis-pole-emploi-assessfirst.79dca9868e4e93a09c52.pdf",
     "static/media/Michroma-Regular.ttf": "/KhadirLounis_Curriculum/static/media/Michroma-Regular.c12a12d1198168c85097.ttf",
     "static/media/Lounis khadir CV .pdf": "/KhadirLounis_Curriculum/static/media/Lounis khadir CV .d1978af539341c0b8217.pdf",
     "index.html": "/KhadirLounis_Curriculum/index.html",
     "main.a849dd2c.css.map": "/KhadirLounis_Curriculum/static/css/main.a849dd2c.css.map",
-    "main.50384cb9.js.map": "/KhadirLounis_Curriculum/static/js/main.50384cb9.js.map"
+    "main.f7e93c2a.js.map": "/KhadirLounis_Curriculum/static/js/main.f7e93c2a.js.map"
   },
   "entrypoints": [
     "static/css/main.a849dd2c.css",
-    "static/js/main.50384cb9.js"
+    "static/js/main.f7e93c2a.js"
   ]
 }
