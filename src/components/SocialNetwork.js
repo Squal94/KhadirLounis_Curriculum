@@ -21,7 +21,7 @@ const SocialNetwork = () => {
     <div className="social-network">
       <ul className="content">
         <a
-          href="https://fr.linkedin.com/"
+          href="www.linkedin.com/in/lounis-khadir-b35a93296"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
