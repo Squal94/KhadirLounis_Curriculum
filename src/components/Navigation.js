@@ -33,6 +33,18 @@ const Navigation = () => {
             >
               <li>World of One piece</li>
             </NavLink>
+            <NavLink
+              to="/KhadirLounis_Curriculum/projet-3"
+              className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+            >
+              <li>projet 3</li>
+            </NavLink>
+            <NavLink
+              to="/KhadirLounis_Curriculum/projet-4"
+              className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+            >
+              <li>projet 4</li>
+            </NavLink>
           </ul>
         </li>
         <NavLink
