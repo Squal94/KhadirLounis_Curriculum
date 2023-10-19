@@ -11,7 +11,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "World of Onepiece",
+    title: "World of Onepiece ",
     date: "Septembre 2023",
     languages: ["React", "Redux", "Sass"],
     infos:
