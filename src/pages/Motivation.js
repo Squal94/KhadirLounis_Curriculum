@@ -62,7 +62,7 @@ const Motivation = () => {
         {/* <Logo /> */}
       </div>
       <Buttons
-        left={"/KhadirLounis_Curriculum/projet-4"}
+        left={"/KhadirLounis_Curriculum/projet-2"}
         right={"/KhadirLounis_Curriculum/contact"}
       />
     </div>
