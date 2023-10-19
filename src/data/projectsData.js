@@ -7,7 +7,7 @@ export const projectsData = [
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "assets/img/projet1.png",
-    link: "http://www.google.com",
+    link: "https://squal94.github.io/Katsuryoku/",
   },
   {
     id: 2,
@@ -17,26 +17,26 @@ export const projectsData = [
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "assets/img/projet2.png",
-    link: "http://www.google.com",
+    link: "https://squal94.github.io/world_of_one_piece/",
   },
-  {
-    id: 3,
-    title: "Everpost",
-    date: "Avril 2020",
-    languages: ["Wordpress", "Php", "React"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "assets/img/projet3.jpg",
-    link: "http://www.google.com",
-  },
-  {
-    id: 4,
-    title: "Creative Dev",
-    date: "Juillet 2020",
-    languages: ["Vue", "Php"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "assets/img/projet4.jpg",
-    link: "http://www.google.com",
-  },
+  // {
+  //   id: 3,
+  //   title: "Everpost",
+  //   date: "Avril 2020",
+  //   languages: ["Wordpress", "Php", "React"],
+  //   infos:
+  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+  //   img: "assets/img/projet3.jpg",
+  //   link: "http://www.google.com",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Creative Dev",
+  //   date: "Juillet 2020",
+  //   languages: ["Vue", "Php"],
+  //   infos:
+  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+  //   img: "assets/img/projet4.jpg",
+  //   link: "http://www.google.com",
+  // },
 ];

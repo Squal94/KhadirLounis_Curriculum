@@ -15,7 +15,7 @@ const Project2 = () => {
         <Project projectNumber={1} />
         <Buttons
           left={"/KhadirLounis_Curriculum/projet-1"}
-          right={"/KhadirLounis_Curriculum/projet-3"}
+          right={"/KhadirLounis_Curriculum/motivation"}
         />
       </div>
     </main>
