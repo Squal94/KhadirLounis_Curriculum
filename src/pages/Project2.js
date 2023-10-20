@@ -11,7 +11,6 @@ const Project2 = () => {
       <Mouse />
       <div className="project">
         <Navigation />
-        {/* <Logo /> */}
         <Project projectNumber={1} />
         <Buttons
           left={"/KhadirLounis_Curriculum/projet-1"}
