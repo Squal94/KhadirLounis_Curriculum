@@ -12,51 +12,49 @@ const Motivation = () => {
       <div className="motivation">
         <h1>Motivation</h1>
         <p>
-          &#10077;
+          <span>&#10077;</span>
+          Madame, Monsieur, <br />
+          <br />
+          Après une dizaine d’années d’expériences dans la vente , j’ai décidé
+          de changer de secteur d'activité.
           <br />
           <br />
-          Après une dizaine d’année d’expérience dans la vente , j’ai décidé de
-          changer de secteur d'activité.
+          Il y a trois ans, j’ai repris mes études pour suivre une formation
+          dans le domaine de la programmation WEB et plus précisément du
+          développement FRONT-END (Reddux,Toolkit,React,Javascript etc.)
+          <br />
+          Ce métier est pour moi un champ de création perpétuelle amenant
+          régulièrement de nouveaux projets, offrant une liberté de création
+          permanente et une résolution des problèmes passionnants. Après avoir
+          finalisé ma formation et obtenu mon diplôme (Titre RNCP de niveau 6),
+          je souhaite aujourd'hui intégrer une entreprise qui me permettra de
+          parfaire mes connaissances dans ce domaine si vaste et qui me
+          passionne, de développer un « savoir faire » en programmation et
+          commencer ce nouveau projet professionnel .
           <br />
           <br />
-          J'ai repris mes études il y a trois ans pour étudier un domaine
-          d'intérêt intellectuel.
+          En complément de mes apprentissages, j’ai participé à divers
+          événements webinars, conférences, formations Agiles, journées portes
+          ouvertes qui m’ont permis d’en savoir davantage sur votre secteur
+          d’activité et d’avoir une première approche de ce métier .
           <br />
           <br />
-          J'ai trouvé la programmation web qui pour moi est un champ de création
-          perpétuelle ,de renouveau et exaltant tant la liberté de création est
-          présente et la résolution de problème passionnant.
+          Je suis prêt à m’investir rapidement et pleinement au sein d’une
+          entreprise ambitieuse et dotée d’un plan de formations internes
+          suivant les évolutions techniques.
+          <br />
+          A la suite d’une période d’intégration, je ferai le nécessaire pour
+          être opérationnel dans les plus brefs délais. Je reste à votre
+          disposition pour un rendez vous à votre convenance par mail
+          lounis.khadir@wanadoo.fr ou par téléphone au 06.28.21.88.83 .
           <br />
           <br />
-          Après avoir finalisé ma formation et obtenu mon équivalence RNCP
-          niveau 6, Je souhaite au jour d’aujourd'hui, Trouver une entreprise
-          qui me permettra de parfaire mes connaissances dans ce domaine si
-          vaste, de créent de bonnes habitudes de programmations, et de
-          m’intégrer à ce domaine qui me passionne et qui représente un nouveau
-          départ professionnelle .
+          En attendant, je vous prie d’agréer,
+          <br />
+          Madame, Monsieur, mes salutations les plus distinguées.
           <br />
           <br />
-          En complément de ma formation, j’ai participé à divers événements
-          webinars, conférences, formation Agiles ,journées portes ouvertes qui
-          m’ont permis d’en savoir davantage sur votre secteur d’activité. Ce
-          qui m’a permis d’avoir une première approche de ce métier .
-          <br />
-          <br />
-          Je suis par ailleurs prêt à m’investir rapidement et pleinement au
-          sein d’une entreprise en suivant des formations internes pour être
-          opérationnel dans les plus brefs délais.
-          <br />
-          <br />
-          Je me réjouis à la perspective de travailler et de faire des progrès
-          dans ce domaine.
-          <br />
-          <br />
-          Avec mes remerciements ,.
-          <br />
-          <br />
-          Khadir Lounis.
-          <br />
-          <br />
+          Monsieur Lounis KHADIR.
           <span>&#10078;</span>
         </p>
         {/* <Logo /> */}
